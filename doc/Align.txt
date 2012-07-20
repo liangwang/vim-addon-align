@@ -1,8 +1,8 @@
-*align.txt*	The Alignment Tool			Dec 22, 2011
+*align.txt*	The Alignment Tool			Jun 18, 2012
 
-Author:    Charles E. Campbell, Jr.  <NdrOchip@ScampbellPfamily.AbizM>
+Author:    Charles E. Campbell      <NdrOchip@ScampbellPfamily.AbizM>
            (remove NOSPAM from Campbell's email first)
-Copyright: (c) 2004-2011 by Charles E. Campbell, Jr.	*Align-copyright*
+Copyright: (c) 2004-2012 by Charles E. Campbell     	*Align-copyright*
            The VIM LICENSE applies to Align.vim, AlignMaps.vim, and Align.txt
            (see |copyright|) except use "Align and AlignMaps" instead of "Vim"
            NO WARRANTY, EXPRESS OR IMPLIED.  USE AT-YOUR-OWN-RISK.

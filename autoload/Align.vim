@@ -1,11 +1,10 @@
 " Align: tool to align multiple fields based on one or more separators
 "   Author:		Charles E. Campbell, Jr.
-"   Date:		Mar 29, 2012
-"   Version:	36p	ASTRO-ONLY
+"   Date:		Jun 18, 2012
+"   Version:	36
 " GetLatestVimScripts: 294 1 :AutoInstall: Align.vim
 " GetLatestVimScripts: 1066 1 :AutoInstall: cecutil.vim
-"redraw!|call DechoSep()|call inputsave()|call input("Press <cr> to continue")|call inputrestore()
-" Copyright:    Copyright (C) 1999-2007 Charles E. Campbell, Jr. {{{1
+" Copyright:    Copyright (C) 1999-2012 Charles E. Campbell, Jr. {{{1
 "               Permission is hereby granted to use and distribute this code,
 "               with or without modifications, provided that this copyright
 "               notice is copied with it. Like anything else that's free,
@@ -19,13 +18,14 @@
 " the power of God for salvation for everyone who believes; for the Jew first,
 " and also for the Greek.  For in it is revealed God's righteousness from
 " faith to faith.
+"redraw!|call DechoSep()|call inputsave()|call input("Press <cr> to continue")|call inputrestore()
 
 " ---------------------------------------------------------------------
 " Load Once: {{{1
 if exists("g:loaded_Align") || &cp
  finish
 endif
-let g:loaded_Align = "v36p"
+let g:loaded_Align = "v36"
 if v:version < 700
  echohl WarningMsg
  echo "***warning*** this version of Align needs vim 7.0"
@@ -1032,7 +1032,7 @@ endfun
 "           nonzero value.  Solution from Nicolai Weibull, vim docs
 "           (:help strlen()), Tony Mechelynck, and my own invention.
 fun! s:Strlen(x)
-"  call Dfunc("s:Strlen(x<".a:x.">")
+"  call Dfunc("s:Strlen(x<".a:x."> g:Align_xstrlen=".g:Align_xstrlen)
 
   if type(g:Align_xstrlen) == 1
    " allow user to specify a function to compute the string length

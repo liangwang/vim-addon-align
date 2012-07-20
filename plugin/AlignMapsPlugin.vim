@@ -1,9 +1,9 @@
 " AlignMapsPlugin:   Alignment maps based upon <Align.vim> and <AlignMaps.vim>
 " Maintainer:        Dr. Charles E. Campbell, Jr. <NdrOchipS@PcampbellAfamily.Mbiz>
-" Date:              Jun 10, 2011
+" Date:              Jun 18, 2012
 "
 " NOTE: the code herein needs vim 7.0 or later
-" Copyright:    Copyright (C) 1999-2009 Charles E. Campbell, Jr. {{{1
+" Copyright:    Copyright (C) 1999-2012 Charles E. Campbell, Jr. {{{1
 "               Permission is hereby granted to use and distribute this code,
 "               with or without modifications, provided that this copyright
 "               notice is copied with it. Like anything else that's free,
@@ -12,7 +12,12 @@
 "               plugin, you agree that in no event will the copyright
 "               holder be liable for any damages resulting from the use
 "               of this software.
-"
+" Romans 1:20 For the invisible things of Him since the creation of the {{{1
+" world are clearly seen, being perceived through the things that are
+" made, even His everlasting power and divinity; that they may be
+" without excuse.
+
+" ---------------------------------------------------------------------
 " Usage: {{{1
 " Use 'a to mark beginning of to-be-aligned region,   Alternative:  use V
 " move cursor to end of region, and execute map.      (linewise visual mode) to
@@ -27,18 +32,12 @@
 "
 " Note: these maps all use <Align.vim>.
 "
-" Romans 1:20 For the invisible things of Him since the creation of the {{{1
-" world are clearly seen, being perceived through the things that are
-" made, even His everlasting power and divinity; that they may be
-" without excuse.
-
-" ---------------------------------------------------------------------
 " Load Once: {{{1
 if &cp || exists("g:loaded_AlignMapsPlugin")
  finish
 endif
 let s:keepcpo                = &cpo
-let g:loaded_AlignMapsPlugin = "v42m"
+let g:loaded_AlignMapsPlugin = "v42"
 set cpo&vim
 
 " =====================================================================
