@@ -1,4 +1,14 @@
-clone from Dr. Chip's Align plugin at http://www.drchip.org/astronaut/vim/align.html#Examples
+
+About
+----------------------------
+This is a mirror of Dr. Chip's Align plugin, with version control! The original release can be checked out at:
+* Always the lates: http://www.drchip.org/astronaut/vim/align.html#Examples
+* Maybe less updated: http://www.vim.org/scripts/script.php?script_id=294
+
+
+Revision History
+----------------------------
+Copied from vimscript website:
 
 <table>
 <tr>
